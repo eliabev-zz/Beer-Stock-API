@@ -47,8 +47,8 @@ public class BeerServiceTest {
 
     private BeerMapper beerMapper = BeerMapper.INSTANCE;
 
-//    @InjectMocks
-//    private BeerService beerService;
+    @InjectMocks
+    private BeerService beerService;
 
     @Test
     void whenBeerInformedThenItShouldBeCreated() throws BeerAlreadyRegisteredException {
